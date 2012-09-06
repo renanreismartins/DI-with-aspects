@@ -1,0 +1,13 @@
+<!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspectj.dtd">
+<aspectj>
+	<weaver options="-verbose -showWeaveInfo -Xreweavable">
+		<include within="br.com.renan..*" />
+	</weaver>
+
+	<aspects>
+		<concrete-aspect name="br.com.renan.aspect.AspectPrecedence" extends="" precedence="br.com.renan.aspect.AlunoAspecto" />
+
+		<aspect name="br.com.renan.aspect.AlunoAspecto" />
+	</aspects>
+
+</aspectj>
