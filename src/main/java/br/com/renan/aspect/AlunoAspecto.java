@@ -36,6 +36,7 @@ public class AlunoAspecto {
 	}
 
 	private class RepMatcher implements Matcher<Field> {
+		@Override
 		public boolean accepts(Field element) {
 			return element.isAnnotationPresent(InjetaRepositorio.class);
 		}

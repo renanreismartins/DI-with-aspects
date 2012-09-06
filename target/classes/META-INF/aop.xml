@@ -5,7 +5,7 @@
 	</weaver>
 
 	<aspects>
-		<concrete-aspect name="br.com.renan.aspect.AspectPrecedence" extends="" precedence="br.com.renan.aspect.AlunoAspecto" />
+		<concrete-aspect name="br.com.renan.aspect.AspectPrecedence" precedence="br.com.renan.aspect.AlunoAspecto" />
 
 		<aspect name="br.com.renan.aspect.AlunoAspecto" />
 	</aspects>
